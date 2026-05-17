@@ -47,8 +47,10 @@ ul{margin:8px 0 8px 20px}
 <input type="hidden" id="teacherName" value="">
 <label style="margin-top:12px">Your Class</label>
 <select id="className" onchange="setTeacher(this)">
-  <option value="">-- Select your class --</option>
-  <option value="Conversation Session 9 - 3094" data-teacher="Laura Ebel">Conversation Session 9 - 3094 (Mon/Wed 9:00 AM)</option>
+<option value="">-- Select your class --</option>
+<optgroup label="Laura Ebel">
+<option value="3094" data-teacher="Laura Ebel">3094 - Mon/Wed 9:00 AM (Laura)</option>
+</optgroup>
 </select>
 <button onclick="startQuiz()">Start Homework</button>
 </div>
